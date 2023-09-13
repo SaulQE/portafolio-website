@@ -281,6 +281,7 @@ section .header{
 
 /* Contacto */
 .contact{
+    margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -299,6 +300,88 @@ section .header{
     margin-bottom: 0.75rem;
 }
 
+.contact-list{
+    margin-bottom: 3rem;
+}
+
+.contact-list li{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contact-list li a{
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+
+.contact-list li a:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: #1d4ed8;
+}
+
+.contact-icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-icons a{
+    color: #ccc;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 1.25rem;
+    border-radius: 100%;
+    transition: all 0.3s ease;
+}
+
+.contact-icons a:hover{
+    color: #ccc;
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+/* contacto - formulario */
+.contact-form form{
+    position: relative;
+    margin: 1rem 0;
+}
+
+.contact-form form input, form textarea{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 18px;
+    background: #12141c;
+    color: #ccc;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.contact-form textarea{
+    resize: none;
+    height: 220px;
+}
+
+.contact-form form .send{
+    display: inline-block;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 800;
+    background: #1d4ed8;
+    width: 190px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.contact-form form .send:hover{
+    background-color: #1d40af;
+}
+
 /* Acerca de */
 footer{
     position: relative;
@@ -315,27 +398,6 @@ footer .column .logo{
 footer .column p{
     color: #ccc;
     margin-bottom: 2rem;
-}
-
-footer .column .socials{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-
-footer .column .socials a{
-    color: #ccc;
-    border: 1px solid #ccc;
-    padding: 5px 10px;
-    font-size: 1.25rem;
-    border-radius: 100%;
-    transition: all 0.3s ease;
-}
-
-footer .column .socials a:hover{
-    color: #ccc;
-    background-color: #1d4ed8;
-    border-color: #1d4ed8;
 }
 
 footer .column h4{
