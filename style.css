@@ -349,7 +349,8 @@ section .header{
     margin: 1rem 0;
 }
 
-.contact-form form input, form textarea{
+.contact-form form input,
+form textarea{
     border: none;
     outline: none;
     width: 100%;
@@ -370,7 +371,7 @@ section .header{
 .contact-form form .send{
     display: inline-block;
     color: #fff;
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 800;
     background: #1d4ed8;
     width: 190px;
@@ -425,6 +426,21 @@ footer .column > a:hover{
     color: #fff;
     font-size: 0.8rem;
     text-align: center;
+}
+
+/* Scroll top */
+.top{
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+    cursor: pointer;
+}
+.top i{
+    color: #fff;
+    background: #1d4ed8;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0.5rem;
 }
 
 /* Reponsive */
