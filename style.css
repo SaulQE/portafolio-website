@@ -155,6 +155,7 @@ section .header{
     font-weight: 600;
 }
 
+/* Skills */
 .skills{
     margin-top: 4rem;
     display: grid;
@@ -205,6 +206,21 @@ section .header{
 .skills .card a:hover{
     color: #1d40af;
 }
+
+/* Tecnologías */
+.technologies{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.technologies span img{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+} 
 
 /* Proyectos */
 .sub-header{
