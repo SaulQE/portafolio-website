@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Portafolio personal</title>
+    <title>Portafolio Personal</title>
 </head>
 <body>
     <nav>
@@ -18,19 +18,20 @@
 
         <ul class="nav-links">
             <li class="link"><a href="#">Inicio</a></li>
-            <li id="link1" class="link"><a href="#">Skills</a></li>
-            <li id="link2" class="link"><a href="#">Proyectos</a></li>
-            <li id="link3" class="link"><a href="#">Acerca de</a></li>
+            <li id="link1" class="link"><a href="#">Habilidades</a></li>
+            <li id="link2" class="link"><a href="#">Tecnologías</a></li>
+            <li id="link3" class="link"><a href="#">Proyectos</a></li>
         </ul>
         <button class="btn">Contáctame</button>
     </nav>
 
+    <!-- Home -->
     <header class="container">
         <div class="content">
             <span class="blur"></span>
             <span class="blur"></span>
             <h4>EN MEJORA CONTINUA</h4>
-            <h1>Hola soy <span>Saul</span>, Desarrollador de software</h1>
+            <h1>Hola soy <span>Saúl</span>, Desarrollador de software</h1>
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium ullam odio accusamus sit error explicabo ab cum, voluptates est omnis. Voluptas molestias dicta velit repudiandae adipisci explicabo, praesentium unde ab.
             </p>
@@ -38,6 +39,7 @@
                 <a href="https://github.com/SaulQE"><i class="ri-github-line"></i></a>
                 <a href="mailto:saul.esquivel.028@gmail.com"><i class="ri-mail-line"></i></a>
                 <a href="#"><i class="ri-linkedin-box-line"></i></a>
+                <a href="img/CV - SaulAndresQuispesucsoEsquivel.pdf"><i class="ri-file-text-line"></i></a>
             </div>
         </div>
         <div class="image">
@@ -47,7 +49,7 @@
 
     <!-- Skills -->
     <section class="container">
-        <h2 class="header">HABILIDADES Y TECNOLOGÍAS</h2>
+        <h2 class="header">HABILIDADES</h2>
         <div class="skills">
             <div class="card">
                 <span><i class="ri-code-box-line"></i></span>
@@ -85,11 +87,82 @@
                 <a href="#">Visitar <i class="ri-arrow-right-line"></i></a>
             </div>
         </div>
-        <!--technologies-->
+    </section>
+
+    <!-- Tecnologías -->
+    <section class="container">
+        <h2 class="header">TECNOLOGÍAS</h2>
         <div class="technologies">
-            <span><img src="img/icons/bootstrap.svg" alt=""></span>
-            <span><img src="img/icons/csharp.svg" alt=""></span>
-            <span><img src="img/icons/css.svg" alt=""></span>
+            <div class="card-tec">
+                <img src="img/icons/spring-boot.svg" alt="">
+                <div class="layer">
+                    <h4>Spring Boot</h4>
+                    <p>Básico Intermedio</p>
+                </div>
+            </div>
+            <div class="card-tec">
+                <img src="img/icons/java.svg" alt="">
+                <div class="layer">
+                    <h4>Java</h4>
+                    <p>Intermedio</p>
+                </div>
+            </div>
+            <div class="card-tec">
+                <img src="img/icons/csharp.svg" alt="">
+                <div class="layer">
+                    <h4>C#</h4>
+                    <p>Básico Intermedio</p>
+                </div>
+            </div>
+            <div class="card-tec">
+                <img src="img/icons/javascript.svg" alt="">
+                <div class="layer">
+                    <h4>JavaScript</h4>
+                    <p>Básico</p>
+                </div>
+            </div>
+            <div class="card-tec">
+                <img src="img/icons/git.svg" alt="">
+                <div class="layer">
+                    <h4>Git</h4>
+                    <p>Intermedio</p>
+                </div>
+            </div>
+            <div class="card-tec">
+                <img src="img/icons/html-5.svg" alt="">
+                <div class="layer">
+                    <h4>HTML5</h4>
+                    <p>Intermedio</p>
+                </div>
+            </div>
+            <div class="card-tec">
+                <img src="img/icons/css.svg" alt="">
+                <div class="layer">
+                    <h4>CSS3</h4>
+                    <p>Intermedio Básico</p>
+                </div>
+            </div>
+            <div class="card-tec">
+                <img src="img/icons/bootstrap.svg" alt="">
+                <div class="layer">
+                    <h4>Bootstrap 5</h4>
+                    <p>Intermedio Básico</p>
+                </div>
+            </div>
+            <div class="card-tec">
+                <img src="img/icons/mysql.svg" alt="">
+                <div class="layer">
+                    <h4>MySQL</h4>
+                    <p>Intermedio</p>
+                </div>
+            </div>
+            <div class="card-tec">
+                <img src="img/icons/sql-server.svg" alt="">
+                <div class="layer">
+                    <h4>SQL Server</h4>
+                    <p>Intermedio</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -117,7 +190,7 @@
                         Lorem, ipsum dolor.
                     </p>
                 </div>
-                <button class="btn">Join Now</button>
+                <button class="btn" onclick="window.location.href='https://github.com/SaulQE/movies-spring'">Ver Código</button>
             </div>
 
             <div class="card">
@@ -137,7 +210,7 @@
                         Lorem, ipsum dolor.
                     </p>
                 </div>
-                <button class="btn">Join Now</button>
+                <button class="btn" onclick="window.location.href='https://github.com/SaulQE/Users-System'">Ver Código</button>
             </div>
 
             <div class="card">
@@ -157,7 +230,7 @@
                         Lorem, ipsum dolor.
                     </p>
                 </div>
-                <button class="btn">Join Now</button>
+                <button class="btn" onclick="window.location.href='https://github.com/SaulQE/proyecto-sistema-ventas'">Ver Código</button>
             </div>
         </div>
     </section>

@@ -12,15 +12,15 @@ const link3 = document.getElementById("link3");
 const link4 = document.getElementById("link4");
 
 link1.addEventListener('click', () => {
-    scrollToElement('.header');
+    scrollToElement('.container',1);
 });
 
 link2.addEventListener('click', () => {
-    scrollToElement('.header', 1);
+    scrollToElement('.container', 2);
 });
 
 link3.addEventListener('click', () => {
-    scrollToElement('.column');
+    scrollToElement('.container', 3);
 });
 
 link4.addEventListener('click', () => {
