@@ -26,3 +26,11 @@ link3.addEventListener('click', () => {
 link4.addEventListener('click', () => {
     scrollToElement('body');
 });
+
+const sr = ScrollReveal ({
+    distance: '25px',
+    duration: 1800,
+    reset: true
+})
+
+sr.reveal('.container',{delay:190, origin:'bottom'})
