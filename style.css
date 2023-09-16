@@ -340,7 +340,7 @@ section .header{
     margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    align-items: center;
+    align-items: normal;
     gap: 3rem;
 }
 
@@ -356,8 +356,12 @@ section .header{
     margin-bottom: 0.75rem;
 }
 
+.contact-cv{
+    margin-top: 3rem;
+}
+
 .contact-list{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .contact-list li{
@@ -399,9 +403,12 @@ section .header{
     border-color: #1d4ed8;
 }
 
+
+
 /* contacto - formulario */
 .contact-form form{
     position: relative;
+    text-align: center;
     margin: 1rem 0;
 }
 
@@ -513,9 +520,9 @@ footer .column > a:hover{
     .skills{
         grid-template-columns: repeat(2,1fr);
     }
-/*     .technologies{
+    .technologies{
         grid-template-columns: repeat(2,1fr);
-    } */
+    }
     .projects{
         grid-template-columns: repeat(2,1fr);
     }
@@ -535,10 +542,6 @@ footer .column > a:hover{
     .skills{
         grid-template-columns: repeat(1,1fr);
     }
-
-/*     .technologies{
-        grid-template-columns: repeat(2,1fr);
-    } */
 
     .projects{
         grid-template-columns: repeat(1,1fr);
