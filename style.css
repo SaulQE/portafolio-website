@@ -335,6 +335,88 @@ section .header{
     border-color: #1d40af;
 }
 
+/* Portafolio */
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 50px;
+}
+
+.card1 {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card1 img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.content1 {
+    width: 100%;
+    height: 0;
+    /* background: radial-gradient(#1d40af, #323232); */
+    background: #1d40af;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 16px;
+    transition: height 0.5s;
+}
+
+.content1 h4 {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.content1 h3{
+    color: #fff;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 2px dashed #fff;
+}
+
+.content1 a {
+    color: #ccc;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 1.25rem;
+    border-radius: 100%;
+    transition: all 0.3s ease;
+}
+.content1 a:hover{
+    color: #ccc;
+    background-color: #000;
+    border-color: #000;
+}
+
+.content1:hover img {
+    transform: scale(1.1);
+}
+
+/* .card1:hover{
+    border-color: #fff;
+} */
+
+.card1:hover .content1 {
+    height: 100%;
+}
+
 /* Contacto */
 .contact{
     margin-top: 4rem;
@@ -521,7 +603,7 @@ footer .column > a:hover{
         grid-template-columns: repeat(2,1fr);
     }
     .technologies{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
     }
     .projects{
         grid-template-columns: repeat(2,1fr);
@@ -542,7 +624,9 @@ footer .column > a:hover{
     .skills{
         grid-template-columns: repeat(1,1fr);
     }
-
+    .technologies{
+        grid-template-columns: repeat(2,1fr);
+    }
     .projects{
         grid-template-columns: repeat(1,1fr);
     }
