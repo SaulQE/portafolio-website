@@ -365,8 +365,6 @@ section .header{
 
 .card img {
     width: 100%;
-    border-radius: 15px;
-    display: block;
     transition: transform 0.5s;
 }
 
@@ -402,9 +400,30 @@ section .header{
     font-weight: 600;
 }
 
+.content .detail{
+    text-align: left;
+}
+
+.content .tags{
+    margin-top: 1rem;
+    text-align: center;
+/*     display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: flex-start; */
+}
+
+.content .tags img{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 1px 15px;
+}
+
 .projects .card p{
     color: #fff;
     margin-bottom: 0.2rem;
+    font-size: 0.9rem;
 }
 
 .projects .card p i{
@@ -416,7 +435,7 @@ section .header{
 .content a {
     display: inline-block;
     padding: 2px 9px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1.75rem;
     color: #ccc;
     border: 1px solid #ccc;
